@@ -19,31 +19,30 @@ K-means clustering is a popular unsupervised machine learning algorithm used to 
 **1. Initialization:**
 - Select the number of clusters, K.
 - Randomly initialize K centroids in the feature space or use a specific initialization strategy.
-- 
+  
 **2. Assigning data points to clusters:**
 - Calculate the Euclidean distance between each data point and all centroids.
 - Assign each data point to the cluster with the nearest centroid, forming K clusters.
-- 
+  
 **3. Updating centroids:**
 - Calculate the new centroid for each cluster by taking the mean of all data points assigned to that cluster.
 - The centroid represents the center of the cluster in the feature space.
-- 
+  
 **4. Iterative process:**
-- Repeat steps 2 and 3 until convergence or a predefined stopping criterion is met. Convergence occurs when the centroids no longer change significantly or when the maximum number of iterations is reached.
+- Repeat steps 2 and 3 until convergence or a predefined stopping criterion is met.
+- Convergence occurs when the centroids no longer change significantly or when the maximum number of iterations is reached.
 
 The algorithm converges to a local minimum of the within-cluster sum of squares, but it does not guarantee convergence to the global minimum. Different random initializations may result in different clustering outcomes. The mathematical objective function for K-means clustering can be expressed as:
 
 ![image](https://github.com/TITHI-KHAN/K-Means-Clustering-/assets/65033964/56f390ab-d915-4e3c-8da7-e99f8968e7a4)
 
-The goal of the algorithm is to minimize this objective function by iteratively updating the cluster
-assignments and the centroids. When the algorithm converges, the centroids represent the final clustering
+The goal of the algorithm is to minimize this objective function by iteratively updating the cluster assignments and the centroids. When the algorithm converges, the centroids represent the final clustering
 solution.
 
 # The k-means cluster algorithm mainly performs two important tasks:
 
 ▪ Determines the best value for K center points or centroids by an iterative process.
-▪ Assigns each data point to its closest k-center (also called centroid). Those data points which
-are near to the particular k-center, create a cluster.
+▪ Assigns each data point to its closest k-center (also called centroid). Those data points which are near to the particular k-center, create a cluster.
 
 # Elbow Method for optimal value of k in KMeans
 
