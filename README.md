@@ -19,12 +19,15 @@ K-means clustering is a popular unsupervised machine learning algorithm used to 
 **1. Initialization:**
 - Select the number of clusters, K.
 - Randomly initialize K centroids in the feature space or use a specific initialization strategy.
+- 
 **2. Assigning data points to clusters:**
 - Calculate the Euclidean distance between each data point and all centroids.
 - Assign each data point to the cluster with the nearest centroid, forming K clusters.
+- 
 **3. Updating centroids:**
 - Calculate the new centroid for each cluster by taking the mean of all data points assigned to that cluster.
 - The centroid represents the center of the cluster in the feature space.
+- 
 **4. Iterative process:**
 - Repeat steps 2 and 3 until convergence or a predefined stopping criterion is met. Convergence occurs when the centroids no longer change significantly or when the maximum number of iterations is reached.
 
