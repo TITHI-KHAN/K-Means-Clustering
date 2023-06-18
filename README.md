@@ -42,6 +42,7 @@ solution.
 # The k-means cluster algorithm mainly performs two important tasks:
 
 ▪ Determines the best value for K center points or centroids by an iterative process.
+
 ▪ Assigns each data point to its closest k-center (also called centroid). Those data points which are near to the particular k-center, create a cluster.
 
 # Elbow Method for optimal value of k in KMeans
