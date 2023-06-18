@@ -3,9 +3,13 @@
 ![image](https://github.com/TITHI-KHAN/K-Means-Clustering-/assets/65033964/cdd5ca66-d0d0-48a7-99b1-55220f289ae9)
 
 Clustering is a widely used technique in the industry. It is actually being used in almost every domain, ranging from banking to recommendation engines, document clustering to image segmentation.
+
 ▪ Customer Segmentation
+
 ▪ Document Clustering
+
 ▪ Image Segmentation
+
 ▪ Recommendation Engines
 
 # K-Means-Clustering
